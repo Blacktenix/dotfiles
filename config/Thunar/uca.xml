@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Открыть терминал</name>
+	<submenu></submenu>
+	<unique-id>1745517099062216-1</unique-id>
+	<command>kitty --working-directory %f</command>
+	<description>Пример особого действия</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Очистить метаданные изображения</name>
+	<submenu></submenu>
+	<unique-id>1749195206927245-1</unique-id>
+	<command>mat2 --inplace %F</command>
+	<description>Очистка метаданных изображения удаляет скрытую информацию (например, данные о камере, местоположении, времени съёмки), которая может быть встроена в файл. Это помогает защитить конфиденциальность и уменьшить размер файла.</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+</actions>

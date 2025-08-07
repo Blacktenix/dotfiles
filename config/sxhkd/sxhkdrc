@@ -1,0 +1,83 @@
+# reloads sxhkd configuration:
+super + r
+    pkill -USR1 -x sxhkd; notify-send 'sxhkd' 'Reloaded config' -t 1500
+
+# Launch Terminal
+super + Return
+    kitty
+
+super + shift + Return
+    alacritty
+# Hide or Unhide Polybar
+super + p
+	sh $HOME/bin/toggle-polybar
+
+# Set random wallpaper
+super + w
+	sh $HOME/bin/random_wallpaper
+
+# Restart keyboard layout
+super + alt + r
+    setxkbmap -layout us,ru -option grp:alt_shift_toggle; notify-send "Keyboard layout restarted" -t 1500
+
+# Change language
+#Alt_L + shift
+#	sh $HOME/bin/change_language.sh
+
+#Shift_L + alt
+#	sh $HOME/bin/change_language.sh
+    
+# Launch Rofi Menu
+super + {d,x}
+    {sh $HOME/.config/rofi/launchers/type-6/launcher_2.sh,sh $HOME/.config/rofi/powermenu/type-4/powermenu.sh}
+
+# Launch Applications
+super + shift + {g,f,n,p,t,c,v,i,x,q,k,l,a}
+	{google-chrome, \
+	firefox, \
+	thunar, \
+	pavucontrol, \
+	telegram-desktop, \
+	code, \
+	xdg-open https://translate.google.com, \
+	google-chrome --incognito, \
+	sh $HOME/bin/xcolor-pick, \
+	sh $HOME/bin/qemu, \
+	kitty -e calcurse, \
+	sh $HOME/bin/screen-lock, \
+	xdg-open https://chat.openai.com}
+     
+# Select window to close
+ctrl + super + alt + k
+	{xkill}
+
+# Volume controls
+#XF86Audio{RaiseVolume,LowerVolume,Mute}
+    #bash $HOME/bin/volume{ --up, --down, --toggle
+    #amixer set Master{ -i 2 --unmute, -d 2 --unmute, --mute} 
+# Volume Up
+XF86AudioRaiseVolume
+    amixer set Master 2%+
+
+# Volume Down
+XF86AudioLowerVolume
+    amixer set Master 2%-
+
+# Mute Toggle
+XF86AudioMute
+    amixer set Master toggle
+
+#Player controls
+XF86Audio{Play,Next,Prev}
+   playerctl{ play-pause, next, previous}
+
+# Brightness controls
+XF86MonBrightness{Up,Down}
+    sh $HOME/bin/brightness{ --up, --down}
+
+# screenshot
+Print
+    notify-send "Screenshot saved"
+shift + Print
+    flameshot gui
+

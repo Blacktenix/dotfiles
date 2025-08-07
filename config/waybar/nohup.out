@@ -1,0 +1,81 @@
+
+(waybar:91982): Gtk-WARNING **: 17:17:23.068: Theme parsing error: gtk-dark.css:6664:15: Junk at end of value for padding
+[2025-08-05 17:17:23.129] [info] Using configuration file /home/sla8ikk/.config/waybar/config.jsonc
+[2025-08-05 17:17:23.129] [error] Error parsing JSON: * Line 42, Column 9
+  Missing ',' or '}' in object declaration
+
+
+(waybar:107601): Gtk-WARNING **: 17:51:05.678: Theme parsing error: gtk-dark.css:6664:15: Junk at end of value for padding
+[2025-08-05 17:51:05.739] [info] Using configuration file /home/sla8ikk/.config/waybar/config.jsonc
+[2025-08-05 17:51:05.743] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2025-08-05 17:51:05.743] [info] Using CSS file /home/sla8ikk/.config/waybar/style.css
+[2025-08-05 17:51:05.756] [info] Hyprland IPC starting
+[2025-08-05 17:51:05.758] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-08-05 17:51:05.762] [warning] module cpu_text: Unknown module: cpu_text
+[2025-08-05 17:51:06.133] [info] Bar configured (width: 1920, height: 43) for output: HDMI-A-1
+[2025-08-05 17:51:06.140] [error] Host: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/StatusNotifierWatcher'
+[2025-08-05 18:13:17.094] [info] Quitting.
+[2025-08-05 18:13:17.110] [info] Hyprland IPC stopping...
+
+(waybar:117010): Gtk-WARNING **: 18:13:20.585: Theme parsing error: gtk-dark.css:6664:15: Junk at end of value for padding
+[2025-08-05 18:13:20.644] [info] Using configuration file /home/sla8ikk/.config/waybar/config.jsonc
+[2025-08-05 18:13:20.647] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2025-08-05 18:13:20.647] [info] Using CSS file /home/sla8ikk/.config/waybar/style.css
+[2025-08-05 18:13:20.661] [info] Hyprland IPC starting
+[2025-08-05 18:13:20.663] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-08-05 18:13:20.667] [warning] module cpu_text: Unknown module: cpu_text
+[2025-08-05 18:13:20.984] [info] Bar configured (width: 1920, height: 43) for output: HDMI-A-1
+[2025-08-05 18:13:20.987] [error] Host: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/StatusNotifierWatcher'
+[2025-08-05 18:13:40.918] [info] Quitting.
+[2025-08-05 18:13:40.928] [info] Hyprland IPC stopping...
+
+(waybar:118237): Gtk-WARNING **: 18:16:09.417: Theme parsing error: gtk-dark.css:6664:15: Junk at end of value for padding
+[2025-08-05 18:16:09.474] [info] Using configuration file /home/sla8ikk/.config/waybar/config.jsonc
+[2025-08-05 18:16:09.478] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2025-08-05 18:16:09.478] [info] Using CSS file /home/sla8ikk/.config/waybar/style.css
+[2025-08-05 18:16:09.490] [info] Hyprland IPC starting
+[2025-08-05 18:16:09.493] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-08-05 18:16:09.497] [warning] module cpu_text: Unknown module: cpu_text
+[2025-08-05 18:16:09.850] [info] Bar configured (width: 1920, height: 43) for output: HDMI-A-1
+[2025-08-05 18:16:09.856] [error] Host: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/StatusNotifierWatcher'
+
+(waybar:118968): Gtk-WARNING **: 18:17:46.508: Theme parsing error: gtk-dark.css:6664:15: Junk at end of value for padding
+[2025-08-05 18:17:46.567] [info] Using configuration file /home/sla8ikk/.config/waybar/config.jsonc
+[2025-08-05 18:17:46.571] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2025-08-05 18:17:46.571] [info] Using CSS file /home/sla8ikk/.config/waybar/style.css
+[2025-08-05 18:17:46.582] [info] Hyprland IPC starting
+[2025-08-05 18:17:46.585] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-08-05 18:17:46.588] [warning] module cpu_text: Unknown module: cpu_text
+[2025-08-05 18:17:46.907] [info] Bar configured (width: 1920, height: 43) for output: HDMI-A-1
+[2025-08-05 18:17:46.910] [error] Host: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/StatusNotifierWatcher'
+[2025-08-05 18:17:52.021] [info] Quitting.
+[2025-08-05 18:17:52.028] [info] Hyprland IPC stopping...
+[2025-08-05 18:17:57.141] [info] Quitting.
+[2025-08-05 18:17:57.152] [info] Hyprland IPC stopping...
+
+(waybar:120308): Gtk-WARNING **: 18:20:51.662: Theme parsing error: gtk-dark.css:6664:15: Junk at end of value for padding
+[2025-08-05 18:20:51.738] [info] Using configuration file /home/sla8ikk/.config/waybar/config.jsonc
+[2025-08-05 18:20:51.742] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2025-08-05 18:20:51.742] [info] Using CSS file /home/sla8ikk/.config/waybar/style.css
+[2025-08-05 18:20:51.757] [info] Hyprland IPC starting
+[2025-08-05 18:20:51.760] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-08-05 18:20:51.763] [warning] module cpu_text: Unknown module: cpu_text
+[2025-08-05 18:20:52.106] [info] Bar configured (width: 1920, height: 43) for output: HDMI-A-1
+[2025-08-05 18:20:52.110] [error] Host: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/StatusNotifierWatcher'
+
+(waybar:120308): Gtk-WARNING **: 19:10:20.140: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding
+
+(waybar:120308): Gtk-WARNING **: 19:13:20.314: Theme parsing error: gtk-dark.css:6664:15: Junk at end of value for padding
+
+(waybar:120308): Gtk-WARNING **: 19:13:27.870: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding
+
+(waybar:120308): Gtk-WARNING **: 19:17:26.937: Theme parsing error: gtk-dark.css:6664:15: Junk at end of value for padding
+
+(waybar:120308): Gtk-WARNING **: 19:18:23.441: Theme parsing error: gtk-dark.css:6664:15: Junk at end of value for padding
+
+(waybar:120308): Gtk-WARNING **: 19:18:27.048: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding
+
+(waybar:120308): Gtk-WARNING **: 19:18:40.347: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding
+[2025-08-05 19:55:05.381] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-08-05 19:55:05.395] [info] Loading persistent workspaces from Hyprland workspace rules
+Gdk-Message: 19:56:51.638: Error reading events from display: Обрыв канала
